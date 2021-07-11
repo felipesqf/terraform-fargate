@@ -7,12 +7,7 @@ Create VPC, Subnets and ECS Fargate Cluster
 - NAT Gateway
 - Internet Gateway
 - Route Table and Association
-
-## Commands
- - terraform init
- - terraform plan
- - terraform apply
-
+- ECS Cluster (Fargate)
 
 ## Required Input
 - region (string)
@@ -22,3 +17,10 @@ Create VPC, Subnets and ECS Fargate Cluster
 - private_cidr (list(string))
 - public_cidr (list(string))
 - number_resources (number)
+
+## Commands
+ - terraform init
+ - terraform plan
+ - terraform apply
+
+
