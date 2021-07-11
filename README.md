@@ -1,4 +1,4 @@
-# Terraform-Fargate-CLuster
+# Terraform-Fargate-Cluster
 Create VPC, Subnets and ECS Fargate Cluster
 
 - VPC
