@@ -12,3 +12,20 @@ Create VPC, Subnets and ECS Fargate Cluster
  - terraform init
  - terraform plan
  - terraform apply
+
+
+## Required Input
+- region 
+    type = string
+- availability_zone 
+    type = list(string)
+- vpc_cidr
+    type = string
+-secure_cidr
+    type = list(string)
+-private_cidr
+    type = list(string)
+-public_cidr
+    type = list(string)
+-number_resources
+    type = number

@@ -13,4 +13,3 @@ output "public_subnets" {
 output "vpc" {
   value = aws_vpc.wpvpc.id
 }
-

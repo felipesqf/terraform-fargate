@@ -19,7 +19,7 @@ resource "aws_subnet" "public_subnet" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name        = "public_subnet"
+    Name        = "wp_public_subnet"
   }
 }
 
@@ -32,7 +32,7 @@ resource "aws_subnet" "private_subnet" {
   cidr_block        = "${var.private_cidr["${count.index}"]}"
 
   tags = {
-    Name        = "private_subnet"
+    Name        = "wp_private_subnet"
   }
 }
 
@@ -45,7 +45,7 @@ resource "aws_subnet" "secure_subnet" {
   cidr_block        = "${var.secure_cidr["${count.index}"]}"
 
   tags = {
-    Name        = "secure"
+    Name        = "wp_secure_subnet"
   }
 }
 
