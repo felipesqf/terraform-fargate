@@ -15,17 +15,10 @@ Create VPC, Subnets and ECS Fargate Cluster
 
 
 ## Required Input
-- region 
-    type = string
-- availability_zone 
-    type = list(string)
-- vpc_cidr
-    type = string
--secure_cidr
-    type = list(string)
--private_cidr
-    type = list(string)
--public_cidr
-    type = list(string)
--number_resources
-    type = number
+- region (string)
+- availability_zone (list(string))
+- vpc_cidr (string)
+- secure_cidr (list(string))
+- private_cidr (list(string))
+- public_cidr (list(string))
+- number_resources (number)
