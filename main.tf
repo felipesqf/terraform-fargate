@@ -5,7 +5,7 @@ resource "aws_vpc" "wpvpc" {
   enable_dns_hostnames = true
 
   tags = {
-    Name = "FinalChallengeVPC"
+    Name = var.vpc_name
   }
 }
 

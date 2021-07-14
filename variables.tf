@@ -29,3 +29,7 @@ variable "public_cidr" {
 variable "number_resources" {
   default = 2
 }
+
+variable "vpc_name"{
+  type = string
+}

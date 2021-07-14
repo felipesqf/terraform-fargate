@@ -12,6 +12,7 @@ Create VPC, Subnets and ECS Fargate Cluster
 ## Required Input
 - region (string)
 - availability_zone (list(string))
+- vpc_name (string)
 - vpc_cidr (string)
 - secure_cidr (list(string))
 - private_cidr (list(string))
