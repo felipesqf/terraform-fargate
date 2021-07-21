@@ -1,5 +1,8 @@
 # Terraform-Fargate-Cluster
-Create VPC, Subnets and ECS Fargate Cluster
+
+This is a terraform module to create an AWS infrastructure (VPC, Public, Private and Secure Subnet for data layer). 
+
+Creates the following:
 
 - VPC
 - 2 Public Subnets, 2 Private Subnets and 2 Secure Subnets in different Availability Zones
